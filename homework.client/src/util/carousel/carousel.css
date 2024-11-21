@@ -1,0 +1,44 @@
+/* Ensure carousel image fits within its container */
+.carousel-container {
+    width: 100%; /* Allow the container to take up full width */
+    margin: auto;
+    text-align: center;
+  }
+  
+  /* Carousel slide */
+  .carousel-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure it takes up full available height */
+  }
+  
+  /* Styling for the image inside the carousel */
+  .square-box {
+    width: 100%; /* Make the image width responsive */
+    height: 100px; /* Set a fixed height to ensure the image fits properly */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+  }
+  
+  /* For mobile devices, adjust the image size */
+  @media (max-width: 768px) {
+    .square-box {
+      height: 150px; /* Smaller height for smaller screens */
+    }
+  }
+  
+  /* Ensure the single image container is also centered and sized */
+  .single-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-image {
+    height: 100px !important;
+    width: 100%; /* Ensure the image takes up the full width of the container */
+    object-fit: contain; /* Ensure image scales to fit container without stretching */
+  }
+  

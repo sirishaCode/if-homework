@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\xparucsir\\source\\repos\\HomeWork\\HomeWork.Server\\..\\homework.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
